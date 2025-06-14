@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu Portifólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Avatar.png" alt="Avatar do Rossler" class="rounded-circle" width="150" height="150" srcset="" />
+        <p class="lead">Eu sou Rossler</p>
+        <h1>Eu aprendo Programação</h1>
+        <p>
+            Sou estudante do segundo ano do Ensino Médio e Jovem aprendiz de Mecânico de Usinagem. Estou aprendendo
+            programação e já desenvolvi alguns projetos com Javascript, P5.js, CSS e HTML. Veja alguns desses abaixo!
+        </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge text-bg-secondary">HTML</p>
+            <P class="badge text-bg-secondary">p5.js</P>
+            <p class="badge text-bg-secondary">CSS</p>
+            <p class="badge text-bg-secondary">JavaScript</p>
+            <p class="badge text-bg-secondary">Scratch</p>
+            <P class="badge text-bg-secondary">Programação CNC</P>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+            crossorigin="anonymous"></script>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/Projeto Monalisa.png" class="card-img-top" alt="Projeto Monalisa" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Projeto Monalisa</h5>
+                        <p class="card-text">
+                            Talvez uma Monalisa falsificada possa te divertir, mova o cursor do mouse para descobrir o que
+                            uma simples pintura (horrível) consegue fazer.
+                        </p>
+                        <div class="mt-auto">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+                                Ver projeto
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/Projeto Quente Frio.png" class="card-img-top" alt="Projeto Quente Frio" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Projeto Quente Frio</h5>
+                        <p class="card-text">
+                            Batata quente ou fria? Nesta brincadeira deliciosa, você deve encontrar o ponto oculto na tela
+                            atráves da dimensão do quadrado - quanto maior o quadrado, mais longe. Quanto menor, mais
+                            perto - Topa aceitar esse desafio?
+                        </p>
+                        <div class="mt-auto">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+                                Ver projeto
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="img/Projeto Corrida.png" class="card-img-top" alt="Projeto Corrida" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Projeto Corrida</h5>
+                        <p class="card-text">
+                            O simulador de corrida entre animais em ruas urbanas, sendo desfrutada por pessoas em suas
+                            arquibancadas. Provavelmente as pessoas apostam quem vai ganhar.
+                        </p>
+                        <div class="mt-auto">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+                                Ver projeto
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto Monalisa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto foi criado a partir de p5.js</p>
+                    <img src="img/Projeto Monalisa.png" alt="imagem representativa do projeto Monalisa" />
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/MiguelRossler/sketches/R3gaBhop5" class="btn btn-success" target="_blank">
+                        Ver projeto ao vivo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto Quente Frio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto foi criado a partir de p5.js</p>
+                    <img src="img/Projeto Quente Frio.png" alt="imagem representativa do projeto Quente Frio" />
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/MiguelRossler/sketches/KIakUApm_" class="btn btn-success" target="_blank">
+                        Ver projeto ao vivo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto Corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto foi criado a partir de p5.js</p>
+                    <img src="img/Projeto Corrida.png" alt="imagem representativa do projeto Corrida" />
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/MiguelRossler/sketches/Z4VxPfwXU" class="btn btn-success" target="_blank">
+                        Ver projeto ao vivo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato:</h2>
+        <div>00001111324761sp@al.educacao.sp.gob.br</div>
+        <h1 class="fs-6 text-center py-5 text-secondary">© Copyright 2024. Produzido por Fernanda Mascheti</h1>
+    </footer>
+</body>
+
+</html>
